@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f5f5ff;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1d1e;
+  box-shadow: 1px 1px 3px 3px rgba(61, 60, 60, 0.5);
+}
+.header .logo {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+.header .Menu-links {
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 40px;
+  background-color: #1e1d1e;
+}
+
+.Menu-links .menu {
+  text-decoration: none;
+  padding: 30px;
+  color: white;
+}
+.Sidebar {
+  background-color: #1e1d1e;
+  display: flex;
+  flex-direction: column;
+  gap: 50;
+  align-items: center;
+  width: 10%;
+}
+
+.Sidebar .menu {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.register-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register-form {
+  width: 400px;
+}
+
+.field-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Register-form .input {
+  height: 30px;
+  width: 70%;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+.btn {
+  height: 30px;
+  width: 60px;
+  background-color: #012250;
+  border: none;
+  color: aliceblue;
+  border-radius: 3px;
+  margin-top: 10px;
+}
